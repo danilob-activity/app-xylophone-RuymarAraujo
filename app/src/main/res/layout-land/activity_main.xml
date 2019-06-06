@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.profdanilo.activity.MainActivity">
+
+    <Button
+        android:id="@+id/c_key"
+        style="@style/KeyStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:onClick="playC"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/d_key"
+        style="@style/KeyStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/orange"
+        android:onClick="playD"
+        app:layout_constraintTop_toBottomOf="@+id/c_key"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <Button
+        android:id="@+id/e_key"
+        style="@style/KeyStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        android:onClick="playE"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/f_key"
+        style="@style/KeyStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@color/green"
+        android:onClick="playF"
+        tools:layout_editor_absoluteX="489dp" />
+
+    <Button
+        android:id="@+id/g_key"
+        style="@style/KeyStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@color/turquoise"
+        android:onClick="playG"
+        tools:layout_editor_absoluteX="484dp" />
+
+
+    <Button
+        android:id="@+id/a_key"
+        style="@style/KeyStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        android:onClick="playA"
+        tools:layout_editor_absoluteX="479dp" />
+
+    <Button
+        android:id="@+id/b_key"
+        style="@style/KeyStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="@color/purple"
+        android:onClick="playB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="474dp" />
+
+</android.support.constraint.ConstraintLayout>
